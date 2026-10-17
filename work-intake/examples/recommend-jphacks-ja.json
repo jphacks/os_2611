@@ -1,0 +1,305 @@
+{
+  "action": "recommend",
+  "language": "ja-JP",
+  "task": {
+    "summary": "JPHACKS大阪で、会社の事業と既存AI製品を調べ、交流先を絞りたい。",
+    "desired_output": "JPHACKSの公式情報と会社の公式サイトを使い、会社の事業、関連製品、未確認点を出典リンク付きで整理してください"
+  },
+  "pool": {
+    "action": "evaluate",
+    "as_of": "2026-10-17",
+    "sources": [
+      {
+        "id": "rskill",
+        "title": "main/SKILL.md",
+        "url": "https://github.com/JasperHye/skill-recommender/blob/main/SKILL.md",
+        "accessed_at": "2026-10-17",
+        "published_at": null
+      },
+      {
+        "id": "rlicense",
+        "title": "main/LICENSE",
+        "url": "https://github.com/JasperHye/skill-recommender/blob/main/LICENSE",
+        "accessed_at": "2026-10-17",
+        "published_at": null
+      },
+      {
+        "id": "rfilter",
+        "title": "main/scripts/candidate_filter.py",
+        "url": "https://github.com/JasperHye/skill-recommender/blob/main/scripts/candidate_filter.py",
+        "accessed_at": "2026-10-17",
+        "published_at": null
+      },
+      {
+        "id": "rsecurity",
+        "title": "main/scripts/security.py",
+        "url": "https://github.com/JasperHye/skill-recommender/blob/main/scripts/security.py",
+        "accessed_at": "2026-10-17",
+        "published_at": null
+      },
+      {
+        "id": "vread",
+        "title": "main/README.md",
+        "url": "https://github.com/vercel-labs/skills/blob/main/README.md",
+        "accessed_at": "2026-10-17",
+        "published_at": null
+      },
+      {
+        "id": "vlicense",
+        "title": "main/LICENSE",
+        "url": "https://github.com/vercel-labs/skills/blob/main/LICENSE",
+        "accessed_at": "2026-10-17",
+        "published_at": null
+      },
+      {
+        "id": "vfind",
+        "title": "main/src/find.ts",
+        "url": "https://github.com/vercel-labs/skills/blob/main/src/find.ts",
+        "accessed_at": "2026-10-17",
+        "published_at": null
+      },
+      {
+        "id": "oread",
+        "title": "dev/README.md",
+        "url": "https://github.com/different-ai/openwork/blob/dev/README.md",
+        "accessed_at": "2026-10-17",
+        "published_at": null
+      },
+      {
+        "id": "olicense",
+        "title": "dev/LICENSE",
+        "url": "https://github.com/different-ai/openwork/blob/dev/LICENSE",
+        "accessed_at": "2026-10-17",
+        "published_at": null
+      },
+      {
+        "id": "ocode",
+        "title": "dev/packages/enterprise-mcp-client/src/tool-catalog.ts",
+        "url": "https://github.com/different-ai/openwork/blob/dev/packages/enterprise-mcp-client/src/tool-catalog.ts",
+        "accessed_at": "2026-10-17",
+        "published_at": null
+      },
+      {
+        "id": "hread",
+        "title": "main/README.md",
+        "url": "https://github.com/NousResearch/hermes-agent/blob/main/README.md",
+        "accessed_at": "2026-10-17",
+        "published_at": null
+      },
+      {
+        "id": "hlicense",
+        "title": "main/LICENSE",
+        "url": "https://github.com/NousResearch/hermes-agent/blob/main/LICENSE",
+        "accessed_at": "2026-10-17",
+        "published_at": null
+      }
+    ],
+    "candidates": [
+      {
+        "id": "recommender",
+        "name": "Skill Recommender",
+        "locator": "https://github.com/JasperHye/skill-recommender",
+        "tier": "github",
+        "kind": "skill",
+        "fit": "与轻量任务推荐、个性化和宿主搜索路线高度重叠",
+        "compatibility": "documented",
+        "account": "existing",
+        "cost": "existing_quota",
+        "license": "MIT；已读根LICENSE",
+        "permissions": [
+          "范围仍待完整复核；本轮仅阅读公开源码与文档"
+        ],
+        "data_flow": "文档由宿主执行搜索；确切查询与宿主云端处理范围需要使用时确认",
+        "source_ids": [
+          "rskill",
+          "rlicense",
+          "rfilter",
+          "rsecurity"
+        ],
+        "checks": {
+          "identity": [
+            "rskill"
+          ],
+          "entrypoint": [
+            "rskill"
+          ],
+          "license": [
+            "rlicense"
+          ],
+          "dependencies": [],
+          "permissions": [],
+          "data_flow": []
+        },
+        "blockers": []
+      },
+      {
+        "id": "vercel",
+        "name": "Vercel Skills CLI",
+        "locator": "https://github.com/vercel-labs/skills",
+        "tier": "official",
+        "kind": "application",
+        "fit": "可作为多宿主Skill发现与安装的技术参考，不替代工作需求理解",
+        "compatibility": "documented",
+        "account": "none",
+        "cost": "free_software",
+        "license": "MIT；模型和外部服务另计",
+        "permissions": [
+          "范围仍待完整复核；本轮仅阅读公开源码与文档"
+        ],
+        "data_flow": "find.ts 向skills.sh搜索API发送查询；完整遥测、安装数据流未复核",
+        "source_ids": [
+          "vread",
+          "vlicense",
+          "vfind"
+        ],
+        "checks": {
+          "identity": [
+            "vread"
+          ],
+          "entrypoint": [
+            "vread"
+          ],
+          "license": [
+            "vlicense"
+          ],
+          "dependencies": [],
+          "permissions": [],
+          "data_flow": []
+        },
+        "blockers": []
+      },
+      {
+        "id": "openwork",
+        "name": "OpenWork",
+        "locator": "https://github.com/different-ai/openwork",
+        "tier": "github",
+        "kind": "application",
+        "fit": "与未来共享能力和企业控制台直接重叠",
+        "compatibility": "documented",
+        "account": "new",
+        "cost": "unknown",
+        "license": "根LICENSE：ee/外为MIT；ee/单独许可，不能整仓库按MIT使用",
+        "permissions": [
+          "范围仍待完整复核；本轮仅阅读公开源码与文档"
+        ],
+        "data_flow": "README描述远程MCP登录组织；完整授权和数据流未复核",
+        "source_ids": [
+          "oread",
+          "olicense",
+          "ocode"
+        ],
+        "checks": {
+          "identity": [
+            "oread"
+          ],
+          "entrypoint": [
+            "oread"
+          ],
+          "license": [
+            "olicense"
+          ],
+          "dependencies": [],
+          "permissions": [],
+          "data_flow": []
+        },
+        "blockers": []
+      },
+      {
+        "id": "hermes",
+        "name": "Hermes Agent",
+        "locator": "https://github.com/NousResearch/hermes-agent",
+        "tier": "github",
+        "kind": "application",
+        "fit": "长期记忆、技能与定时能力可参考，独立运行时比本轮需要更重",
+        "compatibility": "unknown",
+        "account": "unknown",
+        "cost": "unknown",
+        "license": "根LICENSE为MIT；服务与模型成本另核",
+        "permissions": [
+          "范围仍待完整复核；本轮仅阅读公开源码与文档"
+        ],
+        "data_flow": "有多种平台和运行后端；实际部署选择决定外发范围，本轮未部署",
+        "source_ids": [
+          "hread",
+          "hlicense"
+        ],
+        "checks": {
+          "identity": [
+            "hread"
+          ],
+          "entrypoint": [
+            "hread"
+          ],
+          "license": [
+            "hlicense"
+          ],
+          "dependencies": [],
+          "permissions": [],
+          "data_flow": []
+        },
+        "blockers": []
+      }
+    ],
+    "host": "Codex"
+  },
+  "assessments": [
+    {
+      "id": "recommender",
+      "match": "adjacent",
+      "reason": "能力推薦の参考にはなりますが、今回の会社調査を直接置き換えるものではありません。",
+      "source_ids": [
+        "rskill"
+      ]
+    },
+    {
+      "id": "vercel",
+      "match": "adjacent",
+      "reason": "Skillの検索・導入用であり、会社の事業調査そのものとは異なります。",
+      "source_ids": [
+        "vread"
+      ]
+    },
+    {
+      "id": "openwork",
+      "match": "adjacent",
+      "reason": "共有能力の基盤です。今回の公開調査のために別組織を作る必要はありません。",
+      "source_ids": [
+        "oread"
+      ]
+    },
+    {
+      "id": "hermes",
+      "match": "adjacent",
+      "reason": "独立した実行環境です。既存Codexでできる公開調査のために置き換える必要はありません。",
+      "source_ids": [
+        "hread"
+      ]
+    }
+  ],
+  "available_tools": [
+    {
+      "id": "host-public-search",
+      "name": "現在のCodexでの公開Web情報の検索・整理",
+      "match": "direct",
+      "reason": "この開発セッションには公開検索とページ閲覧の機能があり、会社公式資料の調査に使えています。",
+      "permission": "available",
+      "account": "existing",
+      "cost": "existing_quota",
+      "scope": "JPHACKSと会社が公開しているページ。検索語に非公開資料や個人の回答を含めません。",
+      "data_flow": "検索語は検索サービスへ送信され、参照した公開資料は現在のAIサービスで処理されます。",
+      "limitations": [
+        "大阪への実際の出席や賞の条件は、全大会スポンサー一覧だけでは分かりません。"
+      ],
+      "observation": {
+        "host": "Codex",
+        "checked_at": "2026-10-17",
+        "evidence": "2026-10-17のこの開発セッションで検索・ページ閲覧ツールを確認し、公開資料の調査に使用した記録。後日の実行環境では再確認が必要です。"
+      }
+    }
+  ],
+  "preferences": {
+    "allow_new_accounts": false,
+    "allow_setup": false
+  },
+  "host_inventory_checked": true
+}

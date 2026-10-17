@@ -1,0 +1,687 @@
+{
+  "action": "validate_companies",
+  "as_of": "2026-10-17",
+  "scope": "JPHACKS 2026 大会关系与会社资料，第1组；非大阪到场名单",
+  "sources": [
+    {
+      "id": "event",
+      "title": "JPHACKS 2026 官方赞助名录",
+      "url": "https://jphacks.com/2026/sponsors/",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company1",
+      "title": "Bluesky Social PBC 官方业务／产品介绍",
+      "url": "https://bsky.social/about/faq",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company2",
+      "title": "ディップ株式会社 官方业务／产品介绍",
+      "url": "https://www.dip-net.co.jp/service/",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company3",
+      "title": "富士フイルム株式会社 官方业务／产品介绍",
+      "url": "https://www.fujifilm.com/jp/ja/about/corporate/field",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company4",
+      "title": "華為技術日本株式会社 官方业务／产品介绍",
+      "url": "https://www.huawei.com/jp/corporate-information",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company5",
+      "title": "インフィニオン テクノロジーズ ジャパン株式会社 官方业务／产品介绍",
+      "url": "https://www.infineon.com/ja/products/sensor",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company6",
+      "title": "三菱重工業株式会社 航空機・飛昇体事業部 官方业务／产品介绍",
+      "url": "https://www.mhi.com/jp/business/products-services/space-defense",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company7",
+      "title": "株式会社大塚商会 官方业务／产品介绍",
+      "url": "https://www.otsuka-shokai.co.jp/products/ai-iot/ai-agent/",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company8",
+      "title": "ロート製薬株式会社 官方业务／产品介绍",
+      "url": "https://www.rohto.co.jp/business/",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company9",
+      "title": "株式会社セキュアサイクル 官方业务／产品介绍",
+      "url": "https://secure-cycle.co.jp/service/",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company10",
+      "title": "ソフトバンク株式会社 官方业务／产品介绍",
+      "url": "https://www.softbank.jp/business/service/ai/agentic-star/",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    }
+  ],
+  "companies": [
+    {
+      "name": "Bluesky Social PBC",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "Bluesky 与开放社交协议 atproto",
+          "source_ids": [
+            "company1"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "Bluesky；atproto 身份、关注关系与数据互通",
+          "source_ids": [
+            "company1"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "开放互操作、账号可迁移与用户选择",
+          "source_ids": [
+            "company1"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "社交与公开数据的技术候选；当前工作问答并不需要社交协议。",
+          "source_ids": [
+            "company1"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "ディップ株式会社",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "招聘服务和企业业务自动化",
+          "source_ids": [
+            "company2"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "バイトル、はたらこねっと、面接コボット、dip AI AGENT",
+          "source_ids": [
+            "company2"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "人力服务与数字劳动力结合；具体产品路线需逐项确认",
+          "source_ids": [
+            "company2"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "可验证中小企业员工怎样从具体重复任务开始采用 AI。",
+          "source_ids": [
+            "company2"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "富士フイルム株式会社",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "医疗健康、电子材料与影像",
+          "source_ids": [
+            "company3"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "医疗相关产品、高功能材料、消费及专业影像产品线",
+          "source_ids": [
+            "company3"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "跨三个业务领域提供产品；本轮未核对各产品路线图",
+          "source_ids": [
+            "company3"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "需要具体岗位案例；不可把兄弟公司全部办公软件业务归到赞助法人。",
+          "source_ids": [
+            "company3"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "華為技術日本株式会社",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "ICT、消费终端、云、数字能源及智能汽车解决方案",
+          "source_ids": [
+            "company4"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "五类解决方案；本轮未逐型号核查",
+          "source_ids": [
+            "company4"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "支持日本数字化及与日本合作伙伴共同开发",
+          "source_ids": [
+            "company4"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "云与模型基础设施方向相关；轻量原型暂不需要新增基础设施。",
+          "source_ids": [
+            "company4"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "インフィニオン テクノロジーズ ジャパン株式会社",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "半导体传感器产品与解决方案",
+          "source_ids": [
+            "company5"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "XENSIV、REAL3 等传感器系列",
+          "source_ids": [
+            "company5"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "传感与现实环境输入；中长期路线本轮未核对",
+          "source_ids": [
+            "company5"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "当前纯软件方案与传感器主题关联偏弱，不为奖项强塞硬件。",
+          "source_ids": [
+            "company5"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "三菱重工業株式会社 航空機・飛昇体事業部",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "航空、防卫相关开发生产及运用支持；官网链接为集团业务页",
+          "source_ids": [
+            "company6"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "宇宙开发与防卫产品；具体赞助部门范围以大会介绍为准",
+          "source_ids": [
+            "company6"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "本次主题关注安心与安全；非集团完整战略结论",
+          "source_ids": [
+            "company6",
+            "event"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "可讨论来源可追溯与不确定性显示，不能据此声称满足安全行业要求。",
+          "source_ids": [
+            "company6"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "株式会社大塚商会",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "面向企业的 IT 产品与业务支援；本轮深查 AI 产品线",
+          "source_ids": [
+            "company7"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "たよれーる ビジネスAIエージェント；IBM Bob",
+          "source_ids": [
+            "company7"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "已有按职种分类的 AI 能力与导入支援",
+          "source_ids": [
+            "company7"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "直接相似商业场景，也是可能的渠道假设；不能把有110种Agent当我们的独创点。",
+          "source_ids": [
+            "company7"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "ロート製薬株式会社",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "眼部护理、皮肤护理、内服食品与医疗",
+          "source_ids": [
+            "company8"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "眼部护理、皮肤护理等产品线；未逐品牌深查",
+          "source_ids": [
+            "company8"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "以自我护理为核，扩展专业护理与 Well-being",
+          "source_ids": [
+            "company8"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "可用公开资料整理展示跨行业适配；目前没有验证医药员工需求。",
+          "source_ids": [
+            "company8"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "株式会社セキュアサイクル",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "信息安全诊断、咨询与系统开发",
+          "source_ids": [
+            "company9"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "Web/API/平台脆弱性诊断、安全咨询",
+          "source_ids": [
+            "company9"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "在设计开发与运行中降低安全风险",
+          "source_ids": [
+            "company9"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "值得请教能力推荐时最小权限与数据流如何让普通员工看懂。",
+          "source_ids": [
+            "company9"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "ソフトバンク株式会社",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "法人 AI 与业务自动化服务；非集团全业务清单",
+          "source_ids": [
+            "company10"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "AGENTIC STAR",
+          "source_ids": [
+            "company10"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "基于目标规划、判断与执行的企业 AI 平台",
+          "source_ids": [
+            "company10"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "现有企业平台构成竞争；我们的切入口可缩至个人从既有工具起步。",
+          "source_ids": [
+            "company10"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    }
+  ]
+}

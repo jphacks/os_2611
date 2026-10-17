@@ -1,0 +1,42 @@
+{
+  "action": "recommend",
+  "language": "ja-JP",
+  "task": {
+    "summary": "日本の事務職員が、会議メモから決定事項を報告書へ転記する作業を減らしたい。",
+    "desired_output": "このメモの決定事項と次の作業を分け、確認が必要な点も一覧にしてください"
+  },
+  "pool": {
+    "action": "evaluate",
+    "host": "Codex",
+    "as_of": "2026-10-17",
+    "sources": [],
+    "candidates": []
+  },
+  "assessments": [],
+  "available_tools": [
+    {
+      "id": "current-writing",
+      "name": "今使っているAIでの文章整理",
+      "match": "direct",
+      "reason": "すでにあるメモを一覧にする作業なので、新しいツールの追加なしに小さく試せます。",
+      "permission": "available",
+      "account": "existing",
+      "cost": "existing_quota",
+      "scope": "利用者がこの会話に貼り付け、処理を依頼したメモだけ。",
+      "data_flow": "会話に貼り付けた内容は、利用中のAIサービスで処理されます。",
+      "limitations": [
+        "事実と判断は本人が確認します。外部アプリへの転記・送信は行いません。"
+      ],
+      "observation": {
+        "host": "Codex",
+        "checked_at": "2026-10-17",
+        "evidence": "仮想ケース用の観測入力。実際の会社アカウント、社内ファイルやサービス接続を確認したものではありません。"
+      }
+    }
+  ],
+  "preferences": {
+    "allow_new_accounts": false,
+    "allow_setup": false
+  },
+  "host_inventory_checked": true
+}

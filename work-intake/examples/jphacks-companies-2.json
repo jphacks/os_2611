@@ -1,0 +1,686 @@
+{
+  "action": "validate_companies",
+  "as_of": "2026-10-17",
+  "scope": "JPHACKS 2026 大会关系与会社资料，第2组；非大阪到场名单",
+  "sources": [
+    {
+      "id": "event",
+      "title": "JPHACKS 2026 官方赞助名录",
+      "url": "https://jphacks.com/2026/sponsors/",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company1",
+      "title": "株式会社TKC 官方业务／产品介绍",
+      "url": "https://www.tkc.jp/company/about/",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company2",
+      "title": "ULSコンサルティング株式会社 官方业务／产品介绍",
+      "url": "https://www.ulsconsulting.co.jp/services/ai-core-transformation.html",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company3",
+      "title": "ユニークビジョン株式会社 官方业务／产品介绍",
+      "url": "https://www.uniquevision.co.jp/service",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company4",
+      "title": "株式会社Acompany 官方业务／产品介绍",
+      "url": "https://www.acompany.tech/service/",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company5",
+      "title": "株式会社サイバーエージェント 官方业务／产品介绍",
+      "url": "https://www.cyberagent.co.jp/service/",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company6",
+      "title": "DMM 公司发布介绍资料",
+      "url": "https://speakerdeck.com/dmm/dmm-hui-she-shao-jie-zi-liao",
+      "accessed_at": "2026-10-17",
+      "published_at": "2026-09-03"
+    },
+    {
+      "id": "company7",
+      "title": "株式会社ハウテレビジョン 官方业务／产品介绍",
+      "url": "https://howtelevision.co.jp/career/service/",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company8",
+      "title": "i-PRO株式会社 官方业务／产品介绍",
+      "url": "https://i-pro.com/ja-JP/corporate/business-fields",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company9",
+      "title": "KDDI株式会社 官方业务／产品介绍",
+      "url": "https://biz.kddi.com/service/dx-ai/",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company10",
+      "title": "川田テクノシステム株式会社 官方业务／产品介绍",
+      "url": "https://www.kts.co.jp/solution/product",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    }
+  ],
+  "companies": [
+    {
+      "name": "株式会社TKC",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "会计事务所、企业税务会计、地方公共团体及法律信息服务",
+          "source_ids": [
+            "company1"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "税务会计系统、连结集团解决方案、法律信息数据库服务",
+          "source_ids": [
+            "company1"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "为专业业务提供 ICT 与咨询支援；未核查具体 AI 路线",
+          "source_ids": [
+            "company1"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "未来专业岗位配置方向相关，当前不做税务／法律判断自动化。",
+          "source_ids": [
+            "company1"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "ULSコンサルティング株式会社",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "业务与技术咨询、企业核心业务变革",
+          "source_ids": [
+            "company2"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "AI×コア業務変革、Context 设计与实施服务",
+          "source_ids": [
+            "company2"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "以业务语境支持判断和实际工作接入",
+          "source_ids": [
+            "company2"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "主题与产品较贴近；需要展示具体工作改善，不能只展示搜索Agent。",
+          "source_ids": [
+            "company2"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "ユニークビジョン株式会社",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "SNS 营销工具开发与运营",
+          "source_ids": [
+            "company3"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "Beluga 系列",
+          "source_ids": [
+            "company3"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "以互动数据支持个性化营销与品牌关系",
+          "source_ids": [
+            "company3"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "适合营销岗位案例；公开信息调查不等于获得客户私有营销数据。",
+          "source_ids": [
+            "company3"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "株式会社Acompany",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "机密 AI、隐私技术、技术支援和咨询",
+          "source_ids": [
+            "company4"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "Confidential AI Suite（页面部分产品标准备中）",
+          "source_ids": [
+            "company4"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "兼顾 AI 可用性、数据保护与治理",
+          "source_ids": [
+            "company4"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "可验证隐私诉求；我们的本地JSON不是机密计算，不能混为一谈。",
+          "source_ids": [
+            "company4"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "株式会社サイバーエージェント",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "广告、媒体与IP、游戏等互联网服务",
+          "source_ids": [
+            "company5"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "官网服务分类；本轮未逐产品深查",
+          "source_ids": [
+            "company5"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "官网列 AI、DX 为强化领域",
+          "source_ids": [
+            "company5"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "广告与内容岗位可做任务入口；尚未验证具体团队使用环境。",
+          "source_ids": [
+            "company5"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "DMM",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "多领域互联网业务；本轮以公司发布的介绍资料为依据",
+          "source_ids": [
+            "company6"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "DMM TV、DMMブックス等（集团产品，不等同单一法人）",
+          "source_ids": [
+            "company6"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "多业务组合；本轮不推断全集团统一 AI 采购方向",
+          "source_ids": [
+            "company6"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "需要先确认到场团队所属业务；集团太宽，不能泛泛说需求匹配。",
+          "source_ids": [
+            "company6"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "株式会社ハウテレビジョン",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "招聘、职业发展与平台服务",
+          "source_ids": [
+            "company7"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "外資就活ドットコム、外資就活 NEXT 等",
+          "source_ids": [
+            "company7"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "从人才与职业支持扩展平台组合",
+          "source_ids": [
+            "company7"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "适合从学生到职场的能力入门假设，需避免变成求职平台大而全。",
+          "source_ids": [
+            "company7"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "i-PRO株式会社",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "影像安全、医疗视觉与模块相机",
+          "source_ids": [
+            "company8"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "安全摄像机、医用相机模块、moduca",
+          "source_ids": [
+            "company8"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "把图像解析得到的信息连接到现场工作流程",
+          "source_ids": [
+            "company8"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "可以研究现场信息到工作动作的连接，当前不需要开发视觉硬件。",
+          "source_ids": [
+            "company8"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "KDDI株式会社",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "通信企业的法人 AI 与数据应用支援；本轮深查 AI 页",
+          "source_ids": [
+            "company9"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "ELYZA Works with KDDI、KDDI Conata Data Agent",
+          "source_ids": [
+            "company9"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "AI-Ready 环境到业务实施",
+          "source_ids": [
+            "company9"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "已有企业AI与内部检索方案，是相邻竞争与潜在接入方向。",
+          "source_ids": [
+            "company9"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "川田テクノシステム株式会社",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "公共基础设施和建设行业软件、云与AI",
+          "source_ids": [
+            "company10"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "V-nasClair、basepage、KTS アルカナ、检索扩展型AI",
+          "source_ids": [
+            "company10"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "贯通设计、信息共享与实际业务流程",
+          "source_ids": [
+            "company10"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "非常具体的日本行业软件场景；不能假定这些产品已有公开MCP。",
+          "source_ids": [
+            "company10"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    }
+  ]
+}

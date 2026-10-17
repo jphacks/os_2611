@@ -1,0 +1,552 @@
+{
+  "action": "validate_companies",
+  "as_of": "2026-10-17",
+  "scope": "JPHACKS 2026 大会关系与会社资料，第3组；非大阪到场名单",
+  "sources": [
+    {
+      "id": "event",
+      "title": "JPHACKS 2026 官方赞助名录",
+      "url": "https://jphacks.com/2026/sponsors/",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company1",
+      "title": "株式会社PLAY 官方业务／产品介绍",
+      "url": "https://www.play.jp/product",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company2",
+      "title": "さくらインターネット株式会社 官方业务／产品介绍",
+      "url": "https://www.sakura.ad.jp/services/",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company3",
+      "title": "株式会社ヤマレコ 官方业务／产品介绍",
+      "url": "https://yamareco.co.jp/",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company4",
+      "title": "M5Stack 官方业务／产品介绍",
+      "url": "https://docs.m5stack.com/ja/learn/intro",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company5",
+      "title": "Slack 官方业务／产品介绍",
+      "url": "https://slack.com/intl/ja-jp/features",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company6",
+      "title": "株式会社スイッチサイエンス 官方业务／产品介绍",
+      "url": "https://www.switch-science.com/pages/company",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company7",
+      "title": "株式会社ギブリー 官方业务／产品介绍",
+      "url": "https://givery.co.jp/services/",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    },
+    {
+      "id": "company8",
+      "title": "Zoom 官方业务／产品介绍",
+      "url": "https://www.zoom.com/ja/products/",
+      "accessed_at": "2026-10-17",
+      "published_at": null
+    }
+  ],
+  "companies": [
+    {
+      "name": "株式会社PLAY",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "企业视频分发产品、系统设计开发及运营支援",
+          "source_ids": [
+            "company1"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "ULIZA、PLAY VIDEO STORES、STREAKS",
+          "source_ids": [
+            "company1"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "支持直播、点播及大规模视频业务",
+          "source_ids": [
+            "company1"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "培训视频到行动指引可能相关，但纯视频包装不足以说明当前产品价值。",
+          "source_ids": [
+            "company1"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "さくらインターネット株式会社",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "云、托管与GPU基础设施",
+          "source_ids": [
+            "company2"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "さくらのクラウド、高火力 DOK/VRT/PHY",
+          "source_ids": [
+            "company2"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "提供多种云和 AI 算力使用方式",
+          "source_ids": [
+            "company2"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "东京企业部署可再评估；当前宿主能力足够，无需为展示加服务器。",
+          "source_ids": [
+            "company2"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "株式会社ヤマレコ",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "event_sponsor",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "登山信息、计划、记录与安全支援",
+          "source_ids": [
+            "company3"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "ヤマレコ、いまココ、SAGASU",
+          "source_ids": [
+            "company3"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "以可理解的信息支持安全登山和遭难防止",
+          "source_ids": [
+            "company3"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "可以借鉴信息到行动的易用性，跟企业工作流暂为间接关系。",
+          "source_ids": [
+            "company3"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "M5Stack",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "technical_partner",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "IoT 模块化硬件和快速原型平台",
+          "source_ids": [
+            "company4"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "模块化硬件、UiFlow 开发平台",
+          "source_ids": [
+            "company4"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "降低硬件原型开发门槛",
+          "source_ids": [
+            "company4"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "本轮不必引入；只有真实传感任务出现才考虑。",
+          "source_ids": [
+            "company4"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "Slack",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "technical_partner",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "团队沟通、知识共享和工作流平台",
+          "source_ids": [
+            "company5"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "频道、canvas、Workflow Builder、Slack AI、Slackbot",
+          "source_ids": [
+            "company5"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "把企业搜索、AI 与工作协作结合",
+          "source_ids": [
+            "company5"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "已有个性化AI与搜索，优先考虑宿主现有Slack连接，权限仍由工作区控制。",
+          "source_ids": [
+            "company5"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "株式会社スイッチサイエンス",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "technical_partner",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "电子部件进口、开发、制造和销售",
+          "source_ids": [
+            "company6"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "电子部件与开发板；公司页未列具体产品路线",
+          "source_ids": [
+            "company6"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "本轮只核实公司经营范围，未调查战略",
+          "source_ids": [
+            "company6"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "偏硬件供应与原型支持，与当前纯软件需求间接相关。",
+          "source_ids": [
+            "company6"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "株式会社ギブリー",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "technical_partner",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "AI转型、营销DX、人才与安全相关服务",
+          "source_ids": [
+            "company7"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "AI Agent构建、开发与咨询支援；非单一产品清单",
+          "source_ids": [
+            "company7"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "从战略、培训到实施和持续使用的支援",
+          "source_ids": [
+            "company7"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "直接可讨论员工定着与培训成本；需要测量实际收益而非口头承诺。",
+          "source_ids": [
+            "company7"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    },
+    {
+      "name": "Zoom",
+      "entity_scope": "大会名录中的会社／部门；公司官网可能描述集团业务，正文逐项限定",
+      "relationships": [
+        {
+          "type": "technical_partner",
+          "status": "documented",
+          "source_ids": [
+            "event"
+          ]
+        },
+        {
+          "type": "osaka_attendance",
+          "status": "unknown",
+          "source_ids": []
+        },
+        {
+          "type": "osaka_prize",
+          "status": "unknown",
+          "source_ids": []
+        }
+      ],
+      "claims": [
+        {
+          "kind": "fact",
+          "topic": "business",
+          "text": "会议、协作与企业沟通平台",
+          "source_ids": [
+            "company8"
+          ]
+        },
+        {
+          "kind": "fact",
+          "topic": "product",
+          "text": "Meetings、Workplace、AI及开发者接口产品",
+          "source_ids": [
+            "company8"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "direction",
+          "text": "将沟通内容接到协作和后续工作",
+          "source_ids": [
+            "company8"
+          ]
+        },
+        {
+          "kind": "inference",
+          "topic": "fit",
+          "text": "会议后任务整理是合理使用场景；许可、租户政策与费用需个别确认。",
+          "source_ids": [
+            "company8"
+          ]
+        }
+      ],
+      "gaps": [
+        "大阪实际到场、当地奖项适用及金额均未得到公开证据确认"
+      ]
+    }
+  ]
+}

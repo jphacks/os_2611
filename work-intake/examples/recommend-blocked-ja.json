@@ -1,0 +1,42 @@
+{
+  "action": "recommend",
+  "language": "ja-JP",
+  "task": {
+    "summary": "職員が、社内フォルダの議事録から報告を整理したい。",
+    "desired_output": "指定した議事録の決定事項を整理してください"
+  },
+  "pool": {
+    "action": "evaluate",
+    "host": "Codex",
+    "as_of": "2026-10-17",
+    "sources": [],
+    "candidates": []
+  },
+  "assessments": [],
+  "available_tools": [
+    {
+      "id": "current-writing",
+      "name": "指定フォルダの資料読み取り",
+      "match": "direct",
+      "reason": "対象資料が会話にないため、内容を読む権限を確認する必要があります。",
+      "permission": "needs_approval",
+      "account": "existing",
+      "cost": "existing_quota",
+      "scope": "本人が指定した議事録フォルダだけ。",
+      "data_flow": "読み取った内容を利用中のAIサービスへ送る可能性があります。会社の利用ルールと送信先を確認する必要があります。",
+      "limitations": [
+        "事実と判断は本人が確認します。外部アプリへの転記・送信は行いません。"
+      ],
+      "observation": {
+        "host": "Codex",
+        "checked_at": "2026-10-17",
+        "evidence": "仮想ケース用の観測入力。実際の会社アカウント、社内ファイルやサービス接続を確認したものではありません。"
+      }
+    }
+  ],
+  "preferences": {
+    "allow_new_accounts": false,
+    "allow_setup": false
+  },
+  "host_inventory_checked": true
+}

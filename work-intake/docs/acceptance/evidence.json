@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-17",
+  "host": "current Codex Work session using actual shell and search tools",
+  "fixtures": "explicitly synthetic; actual reads/writes/processes",
+  "cases": [
+    {
+      "case": "student",
+      "task_id": "e2d1f642562a",
+      "status": "completed",
+      "completion_current": true,
+      "event_count": 8,
+      "verification_ids": [
+        "32e867a2e04f40eb"
+      ],
+      "local_results": [
+        {
+          "event_id": "4d6ff281e9dd4447",
+          "tool": "read",
+          "status": "returned"
+        },
+        {
+          "event_id": "c4b4026df0174833",
+          "tool": "write",
+          "status": "returned",
+          "evidence_origin": "local_atomic_write"
+        },
+        {
+          "event_id": "32e867a2e04f40eb",
+          "tool": "verify",
+          "status": "returned",
+          "passed": true,
+          "evidence_origin": "independent_local_artifact_read",
+          "artifact_hashes": [
+            {
+              "file": "research-memo.md",
+              "sha256": "3bd06d4af5161130d2d46dc4e6ca4c6fb5dd9c0af7445a63193397aea48d2380",
+              "passed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "employee",
+      "task_id": "cc97b29ebf44",
+      "status": "completed",
+      "completion_current": true,
+      "event_count": 8,
+      "verification_ids": [
+        "073d994f07114548"
+      ],
+      "local_results": [
+        {
+          "event_id": "7ccbd3fcc1954084",
+          "tool": "read",
+          "status": "returned"
+        },
+        {
+          "event_id": "bab3a2b946fc46dd",
+          "tool": "run",
+          "status": "returned",
+          "returncode": 0,
+          "evidence_origin": "local_subprocess"
+        },
+        {
+          "event_id": "073d994f07114548",
+          "tool": "verify",
+          "status": "returned",
+          "passed": true,
+          "evidence_origin": "independent_local_artifact_read",
+          "artifact_hashes": [
+            {
+              "file": "project-hours.csv",
+              "sha256": "43d66af811c77fb0a159a506a868baeaf2794aefb3f32a2289b0ee5889e3b1a0",
+              "passed": true
+            },
+            {
+              "file": "weekly.md",
+              "sha256": "df160dc3f7c6a9e29c532eceb51eef0cd1b81228a4de6773b0be700b002a9ad9",
+              "passed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "freelance",
+      "task_id": "5db0217f371f",
+      "status": "completed",
+      "completion_current": true,
+      "event_count": 8,
+      "verification_ids": [
+        "be72615865ab40b4"
+      ],
+      "local_results": [
+        {
+          "event_id": "4559ed0261314232",
+          "tool": "read",
+          "status": "returned"
+        },
+        {
+          "event_id": "57bc492f9bea4d2a",
+          "tool": "write",
+          "status": "returned",
+          "evidence_origin": "local_atomic_write"
+        },
+        {
+          "event_id": "be72615865ab40b4",
+          "tool": "verify",
+          "status": "returned",
+          "passed": true,
+          "evidence_origin": "independent_local_artifact_read",
+          "artifact_hashes": [
+            {
+              "file": "delivery.md",
+              "sha256": "260c1aabc6d349d89f6b9f9358336697e416fb0ae3584413316fef03a4054eb6",
+              "passed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "builder",
+      "task_id": "e83be1404652",
+      "status": "completed",
+      "completion_current": true,
+      "event_count": 13,
+      "verification_ids": [
+        "a8036ab4008e4f9c"
+      ],
+      "local_results": [
+        {
+          "event_id": "ddf84f7678444c79",
+          "tool": "read",
+          "status": "returned"
+        },
+        {
+          "event_id": "54a167d1f0e34893",
+          "tool": "run",
+          "status": "returned",
+          "returncode": 0,
+          "evidence_origin": "local_subprocess"
+        },
+        {
+          "event_id": "655809b93eb64212",
+          "tool": "fetch",
+          "status": "blocked",
+          "error": "network_or_dns_unavailable_use_host_search"
+        },
+        {
+          "event_id": "d44da35351334636",
+          "tool": "read",
+          "status": "returned"
+        },
+        {
+          "event_id": "a8036ab4008e4f9c",
+          "tool": "verify",
+          "status": "returned",
+          "passed": true,
+          "evidence_origin": "independent_local_artifact_read",
+          "artifact_hashes": [
+            {
+              "file": "work.py",
+              "sha256": "cd48af1f7699515a9d55460e1aa74809623ec09558e94663012e9d29caea5a9d",
+              "passed": true
+            },
+            {
+              "file": "workstate.py",
+              "sha256": "e180554c9ea8272016ceaecfaca62f718c56958b5f57bc64a3f4dddb5ca2b2ae",
+              "passed": true
+            },
+            {
+              "file": "architecture.md",
+              "sha256": "86542ca273f41cd9d7bc3b0670c2283915e07f28611bf89b6ce059cd5dfa11ef",
+              "passed": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

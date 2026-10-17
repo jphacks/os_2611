@@ -1,0 +1,19 @@
+{
+  "as_of": "2026-10-17",
+  "scope": "日本の事務職の公開調査例：Google Formsへの繰り返し入力。特定従業員の情報は含まない。",
+  "sources": [
+    {"id": "g1", "title": "Google公式：フォームを公開して回答者と共有する", "url": "https://support.google.com/docs/answer/2839588?hl=ja", "accessed_at": "2026-10-17", "published_at": null},
+    {"id": "g2", "title": "Google公式：入力途中の回答を自動保存する", "url": "https://support.google.com/docs/answer/10952360?hl=ja", "accessed_at": "2026-10-17", "published_at": null}
+  ],
+  "findings": [
+    {"kind": "fact", "text": "フォーム作成側には事前入力済みリンクを作る機能がある。", "source_ids": ["g1"], "relevance": "作成者向け手順なので、回答者だけの権限で同じ操作ができるとは案内しない。"},
+    {"kind": "fact", "text": "ログイン中の回答は通常30日間下書き保存されるが、オフラインでは使えず、作成者が無効にする場合もある。", "source_ids": ["g2"], "relevance": "中断時に再入力を減らせる可能性がある。元の回答を転記する作業そのものは解決しない。"},
+    {"kind": "inference", "text": "まず作成者か回答者かを確認すると、利用できない機能の導入を勧めずに済む。", "source_ids": ["g1", "g2"], "relevance": "アカウントや別サービスを増やす前に、今ある機能の適用範囲を確認できる。"}
+  ],
+  "coverage": {
+    "direct": ["事前入力と下書きの公式仕様"],
+    "adjacent": ["作成者と回答者の権限差"],
+    "counter": ["下書き保存は転記自動化ではない。設定・接続条件に制限がある。"],
+    "gaps": ["実際のフォーム、組織の設定、利用者の権限は未確認。公開ページの更新日は不明。"]
+  }
+}
