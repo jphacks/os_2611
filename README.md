@@ -8,12 +8,10 @@
 > **Windows v0.3.3：Codex / Claude Codeで実機テスト済み（担当メンバーによる正常動作確認）**  
 > **macOS v0.3.2：配布パッケージあり（実機での一連の動作確認は未完了）**
 
-
 ## 🎬 Demo
+[![Work Intake — Demo Video](https://img.youtube.com/vi/D_8YwVyKBXY/maxresdefault.jpg)](https://youtu.be/D_8YwVyKBXY)
 
-![Work Intake Demo](docs/work-intake-demo-jp.gif)
-
-[▶ 動画を再生（MP4）](work-intake-demo-jp.mp4)
+▶ [デモ動画を見る（YouTube）](https://youtu.be/D_8YwVyKBXY)
 
 ※ 本動画はCodexのUIを参考に制作した再現デモです。実機録画ではありません。
 ## 製品概要
