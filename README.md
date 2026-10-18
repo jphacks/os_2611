@@ -9,7 +9,13 @@
 > **macOS v0.3.2：配布パッケージあり（実機での一連の動作確認は未完了）**
 
 
-[▶ デモ動画を見る（macOS × Codex）](https://github.com/jphacks/os_2611/blob/main/work-intake-demo-jp.mp4)
+## 🎬 Demo
+
+![Work Intake Demo](docs/work-intake-demo-jp.gif)
+
+[▶ 動画を再生（MP4）](work-intake-demo-jp.mp4)
+
+※ Codex UIを参考に制作した再現デモです。実機録画ではありません。
 
 ※ 本動画はCodexのUIを参考に制作した再現デモです。実機録画ではありません。
 
