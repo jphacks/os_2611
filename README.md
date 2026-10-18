@@ -8,8 +8,8 @@
 > **Windows v0.3.3：Codex / Claude Codeで実機テスト済み（担当メンバーによる正常動作確認）**  
 > **macOS v0.3.2：配布パッケージあり（実機での一連の動作確認は未完了）**
 
-<!-- デモ動画・GIFの準備ができたら、この位置にサムネイルとリンクを追加します。 -->
-**デモ動画：準備中**
+
+[▶ デモ動画を見る（macOS × Codex・18秒）](https://github.com/jphacks/os_2611/blob/main/work-intake-macos-codex-agent-jp-18s.mp4)
 
 ## 製品概要
 
