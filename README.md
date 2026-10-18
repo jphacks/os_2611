@@ -12,6 +12,8 @@
 [▶ デモ動画を見る（macOS × Codex）](https://github.com/jphacks/os_2611/blob/main/work-intake-demo-jp.mp4)
 
 ※ 本動画はCodexのUIを参考に制作した再現デモです。実機録画ではありません。
+
+※ 本動画はCodexのUIを参考に制作した再現デモです。実機録画ではありません。
 ## 製品概要
 
 ### 背景
